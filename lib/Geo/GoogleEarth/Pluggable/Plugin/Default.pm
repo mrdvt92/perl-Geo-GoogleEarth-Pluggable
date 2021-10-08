@@ -7,7 +7,7 @@ use Geo::GoogleEarth::Pluggable::Contrib::LinearRing;
 use Geo::GoogleEarth::Pluggable::Contrib::Polygon;
 use Geo::GoogleEarth::Pluggable::Contrib::MultiPolygon;
 
-our $VERSION='0.16';
+our $VERSION='0.17';
 
 =head1 NAME
 
