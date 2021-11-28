@@ -38,7 +38,7 @@ Geo::GoogleEarth::Pluggable::Folder is a L<Geo::GoogleEarth::Pluggable::Base> wi
 
 =head2 initialize
 
-We overide the default "initialize" method in order to append the "plugins" method from L<Module::Pluggable> on to the packages list of the L<Method::Autoload> package.
+We override the default "initialize" method in order to append the "plugins" method from L<Module::Pluggable> on to the packages list of the L<Method::Autoload> package.
 
 The "packages" property is what is needed by L<Method::Autoload> package.  The "plugins" method is what is provided by L<Module::Pluggable>.  So, the Folder package now has available to it every method in the "Plugins" folder at runtime.
 
@@ -89,7 +89,7 @@ Constructs a new LookAt object and returns the object reference to assign to oth
                     latitude  => $lat,    #decimal degrees
                     longitude => $lon,    #decimal degrees
                     range     => $range,  #meters
-                    tilt      => $tilt,   #decimal degrees from veritical
+                    tilt      => $tilt,   #decimal degrees from vertical
                     heading   => $header, #decimal degrees from North
                    );
 

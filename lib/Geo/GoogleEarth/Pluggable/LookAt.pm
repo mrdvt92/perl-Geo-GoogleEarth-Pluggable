@@ -25,7 +25,7 @@ Assign LookAt during construction
   my $folder=$document->Folder(name=>"MyLook", lookat=>$lookat);
   my $point=$folder->Point(lat=>$lat, lon=>$lon, lookat=>$lookat);
 
-Assign LookAt afer construction
+Assign LookAt after construction
 
   $document->lookat($lookat);
   $folder->lookat($lookat);
