@@ -108,7 +108,7 @@ sub node {
 
 =head2 coordinates
 
-The coordinates array is used consistantly for all placemark objects.
+The coordinates array is used consistently for all placemark objects.
 
   my $coordinates=$placemark->coordinates(
                               [

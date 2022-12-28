@@ -89,7 +89,7 @@ Constructs a new LookAt object and returns the object reference to assign to oth
                     latitude  => $lat,    #decimal degrees
                     longitude => $lon,    #decimal degrees
                     range     => $range,  #meters
-                    tilt      => $tilt,   #decimal degrees from veritical
+                    tilt      => $tilt,   #decimal degrees from vertical
                     heading   => $header, #decimal degrees from North
                    );
 

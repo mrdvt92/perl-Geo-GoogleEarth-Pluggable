@@ -260,7 +260,7 @@ Please log on RT and send to the geo-perl email list.
 
 =head2 Not So Pretty XML
 
-The XML produced by L<XML::LibXML> is not "pretty".  If you need pretty XML you must pass the output through xmllint or a simular product.
+The XML produced by L<XML::LibXML> is not "pretty".  If you need pretty XML you must pass the output through xmllint or a similar product.
 
 For example: 
 
